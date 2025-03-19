@@ -1,43 +1,43 @@
 import React from 'react';
 import './Services.css';
-import Image1 from '../../assets/service-1.svg'
-import Image2 from '../../assets/service-2.svg'
-import Image3 from '../../assets/service-3.svg'
+
+import AboutBox from '../about/AboutBox';
+
+import { FaDesktop, FaCode, FaBrain } from 'react-icons/fa';
 
 const data = [
     {
         id: 1,
-        image: Image1,
-        title: "Responsive design",
-        description:
-            "Ensuring that the website/mobile app is responsive across all platforms",
+        icon: FaDesktop, // آیکون مناسب برای طراحی مدرن سایت
+        title: "طراحی مدرن سایت",
+        description: "ایجاد وبسایت‌های زیبا و کاربرپسند با استفاده از جدیدترین تکنیک‌های طراحی و تکنولوژی‌های روز، به گونه‌ای که تجربه کاربری بی‌نظیر و جذابی را ارائه دهد.",
     },
+    
     {
         id: 2,
-        image: Image2,
-        title: "Web Development",
-        description:
-            "Ensuring that that a website meets the correct standards, and also ensuring it's well maintained",
+        icon: FaBrain, // آیکون مناسب برای توسعه هوش مصنوعی
+        title: "توسعه هوش مصنوعی",
+        description: "استفاده از الگوریتم‌های هوش مصنوعی برای بهبود عملکرد و ایجاد تجربه‌های جدید در محصولات دیجیتال.",
     },
     {
         id: 3,
-        image: Image3,
-        title: "Mobile Development",
-        description:
-            "Ensuring that a mobile app meets the correct standards, and also ensuring it's well maintained",
+        icon: FaCode, // آیکون مناسب برای طراحی محصول
+        title: "طراحی محصول",
+        description: "ایجاد و طراحی محصولات دیجیتال با توجه به نیازهای بازار و تجربه کاربری بهینه.",
     },
 ];
+
 
 const Services = () => {
     return (
         <section className="services container section" id="services">
-            <h2 className="section__title">Services</h2>
-
+            <h2 className="section__title">خدمات</h2>
+                
             <div className="services__container grid">
-                {data.map(({ id, image, title, description }) => {
+                {data.map(({ id, icon: Icon, title, description }) => {
                     return (
                         <div className="services__card" key={id}>
-                            <img src={image} alt='' className='services__img' width="80" />
+                            <Icon className='services__img' size={90} />
 
                             <h3 className="services__title">{title}</h3>
                             <p className="services__description">{description}</p>
@@ -45,8 +45,9 @@ const Services = () => {
                     )
                 })}
             </div>
+            <AboutBox/>
         </section>
     )
 }
 
-export default Services
+export default Services;

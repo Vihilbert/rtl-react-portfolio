@@ -1,9 +1,9 @@
 aside {
   position: fixed;
-  left: 0;
+  right: 0;
   top: 0;
   background-color: var(--body-color);
-  border-right: 1px solid var(--border-color);
+  border-left: 1px solid var(--border-color);
   padding: 2.5rem;
   width: 110px;
   min-height: 100vh;
@@ -45,7 +45,7 @@ aside {
 .nav__toggle {
   position: fixed;
   top: 1.25rem;
-  left: 1.875rem;
+  right: 1.875rem;
   cursor: pointer;
   height: 40px;
   width: 40px;
@@ -69,7 +69,7 @@ aside {
 
 @media screen and (max-width: 1024px) {
   .aside {
-    left: -110px;
+    right: -110px;
   }
 
   .nav__toggle {
@@ -77,10 +77,10 @@ aside {
   }
 
   .nav__toggle-open {
-    left: 140px;
+    right: 140px;
   }
 
   .show-menu {
-    left: 0;
+    right: 0;
   }
 }

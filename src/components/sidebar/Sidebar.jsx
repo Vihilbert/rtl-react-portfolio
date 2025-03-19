@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./Sidebar.css";
-import Logo from "../../assets/logo.svg";
-import LightLogo from "../../assets/light-logo.svg";
+import Logo from "../../assets/logo.png";
+import LightLogo from "../../assets/light-logo.png";
 
 import {
     RiHome2Line,
@@ -61,7 +61,7 @@ const Sidebar = (props) => {
                             </li>
 
                             <li className="nav__item">
-                                <a href="#blog" className="nav__link">
+                                <a href="#testimonials" className="nav__link">
                                     <RiDraftLine />
                                 </a>
                             </li>

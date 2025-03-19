@@ -1,9 +1,16 @@
+@import url("./assets/Webfonts/css/fontiran.css");
+body {
+  font-family: dana !important;
+  
+}
 .main {
-  margin-left: 110px;
+  margin-right: 110px;
+  font-family: dana !important;
 }
 
 @media screen and (max-width: 1024px) {
   .main {
-    margin-left: 0;
+    margin-right: 0;
   }
 }
+

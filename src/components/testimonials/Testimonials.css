@@ -1,6 +1,8 @@
 .testimonial__container {
   max-width: 700px;
   margin: auto;
+  margin-top: 8rem;
+  margin-bottom: 8rem;
 }
 
 .testimonial__item {

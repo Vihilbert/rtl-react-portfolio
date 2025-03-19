@@ -39,7 +39,10 @@
 
 .about__list li {
   position: relative;
-  padding-left: 20px;
+padding-left: 20px;
+display: flex;
+align-items: center;
+gap: 5px;
 }
 
 .about__list li::before {
@@ -87,19 +90,22 @@
 }
 
 .ui__design {
-  width: 80%;
+  width: 75%;
   background-color: rgb(255, 76, 96);
 }
 
 .photography {
-  width: 60%;
+  width: 85%;
   background-color: rgb(108, 108, 299);
 }
 
 .about__boxes {
-  grid-template-columns: repeat(4, 1fr);
+ display: flex;
+ flex-direction: row;
+ justify-content: space-around;
   column-gap: 1.875rem;
-  margin-top: 4.35rem;
+  margin-top: 6.35rem;
+  margin-bottom: 6.35rem;
 }
 
 .about__box {
@@ -168,6 +174,14 @@
   .about__container {
     grid-template-columns: 320px;
   }
+  .about__boxes {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+     column-gap: 1.875rem;
+     margin-top: 6.35rem;
+     margin-bottom: 6.35rem;
+   }
 }
 
 @media screen and (max-width: 350px) {

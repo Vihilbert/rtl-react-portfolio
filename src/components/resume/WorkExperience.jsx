@@ -1,64 +1,106 @@
 const WorkExperience = [
     {
         id: 1,
-        title: "Software Engineer",
-        company: "Kurtosys",
-        yearsActive: "January 2022 - Present",
+        title: "توسعه‌دهنده فرانت‌اند",
+        company: "فریلنس",
+        yearsActive: "بهمن ۱۴۰۲ - اکنون",
         information: [
-            "Write modern, performant, maintainable code for a diverse array of internal projects",
-            "Communicate with multi-disciplinary teams of engineers, team leads, and QA Engineers on a daily basis",
+            "طراحی و توسعه وب‌سایت‌های واکنش‌گرا با استفاده از HTML، CSS، JavaScript و ReactJS",
+            "ایجاد کامپوننت‌های UI با کدهای قابل استفاده مجدد برای بهبود تجربه کاربری",
+            "استفاده از Git برای مدیریت کد منبع و همکاری تیمی",
+            "همکاری نزدیک با توسعه‌دهندگان بک‌اند برای یکپارچه‌سازی API‌ها",
+            "همکاری با تیم‌های مختلف برای تعریف نیازمندی‌ها و ارزیابی ویژگی‌های جدید در پروژه‌ها"
         ],
     },
     {
         id: 2,
-        title: "Junior Software Developer",
-        company: "Entrostat",
-        yearsActive: "May 2017 - December 2021",
+        title: "طراح گرافیک",
+        company: "فریلنس",
+        yearsActive: "آبان ۱۴۰۱ - بهمن ۱۴۰۲",
         information: [
-            "Improved and optimized the company's website for a seamless customer experience",
-            "Created, communicated, and managed project plans & project timelines",
-            "Worked to continually meet the expectation of our clients",
+            "طراحی لوگو، بروشور، فلایر و سایر مواد تبلیغاتی",
+            "طراحی گرافیک برای کمپین‌های تبلیغاتی شبکه‌های اجتماعی مانند آگهی‌های فیسبوک و پست‌های اینستاگرام",
+            "ویرایش و بهبود کیفیت تصاویر در فتوشاپ برای استفاده در فرمت‌های چاپی و دیجیتال",
+            "همکاری با مشتریان برای تحقق دقیق خواسته‌ها و بازخورد گرفتن از آنها"
         ],
     },
     {
         id: 3,
-        title: "Junior Software Developer",
-        company: "Empire State",
-        yearsActive: "Feburary 2016 - April 2017",
+        title: "توسعه‌دهنده هوش مصنوعی",
+        company: "دانشگاه اصفهان",
+        yearsActive: "مهر ۱۴۰۲ - اکنون",
         information: [
-            "Planned, developed, tested, deployed, and maintained web applications and mobile applications",
-            "Worked well independently and on a team to solve problems."
+            "توسعه مدل‌های یادگیری ماشین برای پردازش داده‌های پزشکی و پیش‌بینی بیماری‌ها",
+            "کار با تکنولوژی‌های پردازش تصویر و پردازش سیگنال برای تشخیص دقیق‌تر اطلاعات",
+            "همکاری با تیم‌های مختلف تحقیقاتی در حوزه هوش مصنوعی و علوم پزشکی",
+            "ارائه مشاوره فنی و علمی به تیم‌ها برای حل چالش‌های پیچیده در پروژه‌ها"
         ],
     },
     {
         id: 4,
-        title: "Software Development Intern",
-        company: "The Digital Academy",
-        yearsActive: "Novembe 2015 - January 2016",
+        title: "طراح رابط کاربری (UI)",
+        company: "شرکت نوآوران",
+        yearsActive: "فروردین ۱۴۰۱ - شهریور ۱۴۰۲",
         information: [
-            "Served as a dedicated and supportive Intern in a fast-paced environment",
-            "Worked to solve complex problems using the latest in Mobile and Web Technologies.",
+            "طراحی رابط کاربری کاربرپسند برای اپلیکیشن‌های موبایل و وب",
+            "ایجاد نمونه‌سازی‌های پویا و تعاملی برای تست و بازخورد کاربران",
+            "همکاری با تیم توسعه فرانت‌اند برای پیاده‌سازی طرح‌ها در کد",
+            "مدیریت و رهبری جلسات طوفان فکری برای بهبود ویژگی‌ها و طراحی‌های محصولات"
         ],
     },
     {
         id: 5,
-        title: "IT Support Assistant",
-        company: "Varsity College",
-        yearsActive: "February 2015 - May 2015",
+        title: "برنامه‌نویس پردازش داده",
+        company: "شرکت بهیار صنعت سپاهان",
+        yearsActive: "فروردین ۱۴۰۳ - آبان ۱۴۰۳",
         information: [
-            "Worked to support the senior support staff with day-to-day tasks.",
-            "Assisted with the evaluation and troubleshooting of hardware and software issues.",
-            "Maintaining computer Inventory & surplus equipment."
+            "توسعه الگوریتم‌های پردازش داده و نرم‌افزارهای خاص برای بهبود دقت تحلیل داده‌ها",
+            "طراحی و پیاده‌سازی خطوط پردازش داده و فرآیندهای اتوماسیون",
+            "استفاده از Python و C++ برای تجزیه و تحلیل داده‌های بزرگ",
+            "همکاری با تیم تحقیق و توسعه برای بهینه‌سازی فرایندهای پردازش داده‌ها"
         ],
     },
     {
         id: 6,
-        title: "Student Ambassador",
-        company: "Varsity College",
-        yearsActive: "December 2014 - February 2015",
+        title: "توسعه‌دهنده نرم‌افزار",
+        company: "کرتوسیس",
+        yearsActive: "دی ۱۴۰۱ - اکنون",
         information: [
-            "Monitored registration for all prospective student",
-            "Assisted parents and prospective student with necessary registration details",
+            "نوشتن کد مدرن، کارا و قابل نگهداری برای پروژه‌های داخلی مختلف",
+            "همکاری با تیم‌های چندرشته‌ای از مهندسان، سرپرستان تیم و مهندسان QA",
+            "مدیریت و بهبود پروژه‌های نرم‌افزاری در محیط تیمی، استفاده از تکنولوژی‌های روز دنیا"
+        ],
+    },
+    {
+        id: 7,
+        title: "مشاور توسعه فناوری اطلاعات",
+        company: "توسعه پایدار",
+        yearsActive: "مرداد ۱۴۰۰ - آبان ۱۴۰۱",
+        information: [
+            "ارائه مشاوره به تیم‌های فنی در خصوص زیرساخت‌های نرم‌افزاری و فناوری‌های نوین",
+            "طراحی و بهینه‌سازی راهکارهای IT برای کسب و کارها و سازمان‌ها",
+            "مدیریت و نظارت بر اجرای پروژه‌های فناوری اطلاعات با هدف ارتقاء بهره‌وری و کاهش هزینه‌ها"
+        ],
+    },
+    {
+        id: 8,
+        title: "توسعه‌دهنده وب",
+        company: "انتروستات",
+        yearsActive: "اردیبهشت ۱۳۹۶ - آذر ۱۳۹۹",
+        information: [
+            "بهبود و بهینه‌سازی وب‌سایت شرکت برای بهبود تجربه کاربری و عملکرد سایت",
+            "مدیریت و نظارت بر برنامه‌ریزی پروژه‌ها و زمان‌بندی‌های اجرایی",
+            "همکاری با تیم‌های دیگر برای تحقق اهداف مشتریان و ارتقاء کیفیت خدمات"
+        ],
+    },
+    {
+        id: 9,
+        title: "توسعه‌دهنده وب",
+        company: "امپایر استیت",
+        yearsActive: "بهمن ۱۳۹۴ - فروردین ۱۳۹۶",
+        information: [
+            "برنامه‌ریزی، توسعه، آزمایش، استقرار و نگهداری وب‌اپلیکیشن‌ها و اپلیکیشن‌های موبایل",
+            "حل مسائل به‌صورت مستقل و در تیم برای رسیدن به راهکارهای بهینه"
         ],
     },
 ];

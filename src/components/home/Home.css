@@ -24,13 +24,14 @@
 
 .home__socials {
   display: flex;
+  justify-content: space-around;
   column-gap: 1.75rem;
   margin: 1.5rem 0;
 }
 
 .home__social-link {
   color: var(--title-color);
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   transition: 0.3s;
 }
 

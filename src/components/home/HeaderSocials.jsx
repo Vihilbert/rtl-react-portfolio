@@ -1,32 +1,36 @@
 import React from 'react';
-import { FaGithub, FaFacebookF, FaLinkedinIn, FaTwitter, FaDev } from 'react-icons/fa';
-import { SiHashnode } from 'react-icons/si'
+
+import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
+import { PiTelegramLogoFill } from "react-icons/pi";
+import { HiOutlineMail } from "react-icons/hi";
+import { FiPhoneCall } from "react-icons/fi";
 
 const HeaderSocials = () => {
     return (
         <div className='home__socials'>
-            <a href='https://www.github.com/GregSithole' className='home__social-link' target='_blank' rel='noreferrer'>
-                <FaGithub />
+            {/* گیت‌هاب */}
+            <a href='https://github.com/vihilbert' className='home__social-link' target='_blank' rel='noreferrer'>
+                <AiFillGithub />
             </a>
 
-            <a href='https://hashnode.com/@gregsithole' className='home__social-link' target='_blank' rel='noreferrer'>
-                <SiHashnode />
+            {/* لینکدین */}
+            <a href='https://www.linkedin.com/in/hossein-akbari-97a008147/' className='home__social-link' target='_blank' rel='noreferrer'>
+                <AiFillLinkedin />
             </a>
 
-            <a href='https://dev.to/gregsithole' className='home__social-link' target='_blank' rel='noreferrer'>
-                <FaDev />
+            {/* تلگرام */}
+            <a href='https://t.me/HosseinAkbari2000' className='home__social-link' target='_blank' rel='noreferrer'>
+                <PiTelegramLogoFill />
             </a>
 
-            <a href='https://www.linkedin.com/in/greg-sithole-b6350558/' className='home__social-link' target='_blank' rel='noreferrer'>
-                <FaLinkedinIn />
+            {/* ایمیل */}
+            <a href='mailto:hossein1379akbari@gmail.com' className='home__social-link' target='_blank' rel='noreferrer'>
+                <HiOutlineMail />
             </a>
 
-            <a href='https://wwww.facebook.com/Greg.Sithole' className='home__social-link' target='_blank' rel='noreferrer'>
-                <FaFacebookF />
-            </a>
-
-            <a href='https://www.twitter.com/GregSithole' className='home__social-link' target='__blank' rel='noreferrer'>
-                <FaTwitter />
+            {/* شماره تلفن */}
+            <a href='tel:+989010540925' className='home__social-link' target='_blank' rel='noreferrer'>
+                <FiPhoneCall />
             </a>
         </div>
     );

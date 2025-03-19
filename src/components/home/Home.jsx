@@ -10,12 +10,12 @@ const Home = () => {
         <section className="home container" id='home'>
             <div className="intro">
                 <img src={Me} alt="" className='home__img' width='120' />
-                <h1 className="home__name">Greg Sithole</h1>
-                <span className="home__education">I'm a Software Engineer</span>
+                <h1 className="home__name">حسین اکبری</h1>
+                <span className="home__education">یک توسعه دهنده نرم افزار</span>
 
                 <HeaderSocials />
 
-                <a href="#contact" className="btn"> Contact Me</a>
+                <a href="#contact" className="btn"> ارتباط با من</a>
 
                 <ScrollDown />
             </div>

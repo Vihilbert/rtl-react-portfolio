@@ -1,7 +1,7 @@
 import React from 'react';
 import './Testimonials.css';
 import Image3 from '../../assets/avatar-3.svg'
-import Image4 from '../../assets/avatar-4.svg'
+import Image4 from '../../assets/avatar-3.svg'
 
 import { Pagination } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -13,25 +13,47 @@ const Testimonials = () => {
 
 	const data = [
 		{
-			id: 1,
-			image: Image4,
-			title: "Kerren Ortlepp",
-			subtitle: "Founder @ Entrostat",
-			comment: "Greg worked at Entrostat as a full-stack developer. He was excellent and had a real eye for design. If there was ever a time where we had a complicated frontend or needed to know what the best CSS approach was for something - Greg was our goto man!",
+		  id: 1,
+		  image: Image3,
+		  title: "نگار حسینی",
+		  subtitle: "طراح ارشد @ دیزاین‌لب",
+		  comment: "این فریم‌ورک واقعاً تجربه‌ی طراحی من رو متحول کرد! انعطاف‌پذیری بالا و الگوهای طراحی حرفه‌ای باعث می‌شه کارها خیلی روان‌تر پیش بره.",
 		},
 		{
-			id: 2,
-			image: Image3,
-			title: "Thapelo Kekana",
-			subtitle: "Frontend Developer @ FNB",
-			comment: "I enjoy working with the theme and learn so much. You guys make the process fun and interesting. Good luck! 👍",
+		  id: 2,
+		  image: Image4,
+		  title: "امیررضا شفیعی",
+		  subtitle: "برنامه‌نویس فرانت‌اند @ توسعه‌گران نوین",
+		  comment: "استفاده از این پلتفرم فوق‌العاده لذت‌بخشه. سرعت بالای توسعه و مستندات خوب، تجربه کار با اون رو عالی کرده!",
 		},
-	];
+		{
+		  id: 3,
+		  image: Image3,
+		  title: "زهرا محمدی",
+		  subtitle: "مدیر محصول @ استارتاپ‌پلاس",
+		  comment: "همکاری با تیم توسعه‌دهنده این محصول بی‌نظیر بود. تجربه‌ای که نه تنها حرفه‌ای بلکه بسیار الهام‌بخش بود!",
+		},
+		{
+		  id: 4,
+		  image: Image4,
+		  title: "حسین رضایی",
+		  subtitle: "متخصص داده @ دیتاویژن",
+		  comment: "تحلیل داده‌ها با این ابزار بسیار ساده و سریع شده. از اینکه می‌تونم به راحتی بین داده‌ها الگوهای مفید پیدا کنم، شگفت‌زده شدم!",
+		},
+		{
+		  id: 5,
+		  image: Image3,
+		  title: "رؤیا کیانی",
+		  subtitle: "توسعه‌دهنده‌ی بک‌اند @ کدنویسان برتر",
+		  comment: "ساختار کد و معماری این پروژه بی‌نظیره! همه چیز به درستی چیده شده و توسعه دادن با اون خیلی لذت‌بخشه.",
+		},
+	  ];
+	  
 
 	return (
-		<section className="testimonials container section">
+		<section className="testimonials container section" id='testimonials'>
 
-			<h2 className="section__title">Testimonials</h2>
+			<h2 className="section__title">نظرات کاربران</h2>
 
 			<Swiper className="testimonial__container grid"
 				modules={[Pagination]}

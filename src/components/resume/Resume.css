@@ -23,13 +23,13 @@
 
 .tab__panel-list li {
   position: relative;
-  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .tab__panel-list li::before {
-  content: "▹";
+  content: "";
   position: absolute;
-  left: 0;
+  righ: 0;
 }
 
 .button {
@@ -42,15 +42,17 @@
   font-size: var(--normal-font-size);
   font-weight: var(--font-bold);
   color: var(--title-color);
-  text-align: left;
+  text-align: right;
 }
-
+.margin-2{
+  margin-top: 6rem;
+}
 .tab:first-child .button {
-  border-top-left-radius: var(--border-radius);
+  border-top-right-radius: var(--border-radius);
 }
 
 .tab:last-child .button {
-  border-bottom-left-radius: var(--border-radius);
+  border-bottom-right-radius: var(--border-radius);
 }
 
 .button:focus,
@@ -61,16 +63,16 @@
 
 .tab.is-active .button {
   background-color: var(--container-color);
-  border-top-left-radius: var(--border-radius);
-  border-bottom-left-radius: var(--border-radius);
+  border-top-right-radius: var(--border-radius);
+  border-bottom-right-radius: var(--border-radius);
   box-shadow: var(--shadow);
   color: var(--first-color);
 }
 
 .tab__panel:first-of-type.is-active,
 .tab__panel:last-child.is-active {
-  border-top-left-radius: 0;
-  border-bottom-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
 }
 
 @media screen and (max-width: 768px) {
@@ -90,8 +92,8 @@
 
   .tab__panel:first-of-type.is-active,
   .tab__panel:last-child.is-active {
-    border-top-left-radius: var(--border-radius);
-    border-bottom-left-radius: var(--border-radius);
+    border-top-right-radius: var(--border-radius);
+    border-bottom-right-radius: var(--border-radius);
   }
 
   .tab.is-active .button {
