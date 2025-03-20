@@ -11,7 +11,7 @@ const About = () => {
 
 
     return (
-        <section className="about container section" id="about">
+        <section className="about container section fullscreen" id="about">
             <h2 className="section__title">درباره من  </h2>
 
             <div className="about__container grid">

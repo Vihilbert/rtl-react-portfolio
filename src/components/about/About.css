@@ -14,7 +14,7 @@
   position: relative;
 }
 
-.about__data::before {
+/* .about__data::before {
   content: "";
   width: 0;
   height: 0;
@@ -22,9 +22,10 @@
   border-bottom: 10px solid transparent;
   border-right: 15px solid var(--container-color);
   position: absolute;
-  left: -0.93rem;
+  right: -0.93rem;
   top: 20%;
-}
+  rotate: 180;
+} */
 
 .about__description {
   margin-bottom: 1rem;

@@ -2,7 +2,9 @@ import React, { useState } from "react";
 import "./Sidebar.css";
 import Logo from "../../assets/logo.png";
 import LightLogo from "../../assets/light-logo.png";
-
+import { CiMenuKebab } from "react-icons/ci";
+import { IoMdClose } from "react-icons/io";
+import { SlMenu } from "react-icons/sl";
 import {
     RiHome2Line,
     RiUser3Line,
@@ -83,8 +85,8 @@ const Sidebar = (props) => {
             </aside>
 
             <div className={toggle ? 'nav__toggle nav__toggle-open' : 'nav__toggle'} onClick={() => showMenu(!toggle)}>
-                <RiMenu2Line />
-            </div>
+  {toggle ? <IoMdClose /> : <SlMenu />}
+</div>
         </>
     );
 };

@@ -77,6 +77,8 @@ body {
   line-height: 1.7;
 }
 
+
+
 main {
   background-color: var(--body-color);
   color: var(--text-color);
@@ -126,7 +128,7 @@ img {
 .section {
   padding-top: 2rem;
   padding-bottom: 2rem;
-  min-height: 1vh;
+  
 }
 
 .section__title {

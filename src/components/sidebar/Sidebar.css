@@ -57,6 +57,8 @@ aside {
   z-index: 1;
   transition: 0.3s;
   font-size: 1rem;
+
+  border-radius: 100%;
 }
 
 [data-theme="dark"] .nav__toggle {
