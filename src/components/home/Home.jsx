@@ -3,10 +3,12 @@ import './Home.css';
 import Me from '../../assets/avatar-1.svg';
 import HeaderSocials from './HeaderSocials';
 import ScrollDown from './ScrollDown';
-import Shapes from './Shapes';
 
+import HeroImage from './Hero';
 const Home = () => {
+    
     return (
+       <>
         <section className="home container" id='home'>
             <div className="intro">
                 <img src={Me} alt="" className='home__img' width='120' />
@@ -20,8 +22,11 @@ const Home = () => {
                 <ScrollDown />
             </div>
 
-            <Shapes />
         </section>
+        {/* <div className='hero__background'>
+        <HeroImage/>
+        </div> */}
+       </>
     )
 }
 

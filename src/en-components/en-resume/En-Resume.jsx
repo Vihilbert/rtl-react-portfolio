@@ -1,18 +1,18 @@
 import React, { useState } from "react";
-import "./Resume.css";
+import "./En-Resume.css";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
-import Button from './Button'
+import EnButton from './En-Button';
 
-import WorkExperience from "./WorkExperience";
+import EnWorkExperience from './En-Workexperience';
 
-const Resume = () => {
+const EnResume = () => {
     const [tabIndex, setTabIndex] = useState(0);
 
     return (
-        <section className="resume container section " id="resume">
-            <h2 className="section__title">تجریبیات</h2>
+        <section className="resume container section" id="resume">
+            <h2 className="section__title">Experience</h2>
 
-            <div className="resume__container margin-2">
+            <div className="resume__container">
                 <Tabs
                     className="tabs"
                     selectedIndex={tabIndex}
@@ -21,17 +21,17 @@ const Resume = () => {
                     selectedTabPanelClassName={"is-active"}
                 >
                     <TabList className="tab__list">
-                        {WorkExperience.map((experience, index) => {
+                        {EnWorkExperience.map((experience, index) => {
                             const { id, company } = experience;
                             return (
                                 <Tab className="tab" key={`company-${id}`}>
-                                    <Button>{company}</Button>
+                                    <EnButton>{company}</EnButton>
                                 </Tab>
                             );
                         })}
                     </TabList>
 
-                    {WorkExperience.map((experience) => {
+                    {EnWorkExperience.map((experience) => {
                         const { id, company, yearsActive, title, information } = experience;
                         return (
                             <TabPanel className="tab__panel" key={`panel-${id}`}>
@@ -53,4 +53,4 @@ const Resume = () => {
     );
 };
 
-export default Resume;
+export default EnResume;
